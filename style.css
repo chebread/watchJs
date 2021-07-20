@@ -1,9 +1,9 @@
 body {
     background-color: thistle;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 #show {
-    font-family: 'Noto Sans KR', sans-serif;
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -22,8 +22,10 @@ p {
 }
 
 #help_button {
+    font-size: 15px;
     width: 50px;
-    height: 23px;
+    height: 21px;
+
     border: 1px solid black;
 
     display: flex;
