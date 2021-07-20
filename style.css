@@ -1,0 +1,33 @@
+body {
+    background-color: thistle;
+}
+
+#show {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90vh;
+
+}
+
+p {
+    font-size: 15px;
+    margin-left: 2vw;
+}
+
+#help_button {
+    width: 50px;
+    height: 23px;
+    border: 1px solid black;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
