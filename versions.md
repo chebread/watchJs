@@ -12,3 +12,6 @@ basics functions
 
 ### v1.3
 Remove the help_button
+
+### v1.4
+Edit `watchJs` place
