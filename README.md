@@ -7,7 +7,7 @@
 웹 브라우저에서 [watch-js](https://watch-js.netlify.app)로 접속하여 사용하세요!
 
 ## 버전
-현재 버전: **v1.2**
+현재 버전: **v1.3**
 
 ## 라이센스
 누구나 사용할 수 있게 MIT License를 사용해요

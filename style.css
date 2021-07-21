@@ -27,6 +27,7 @@ p {
     height: 21px;
 
     border: 1px solid black;
+    border-radius: 4px;
 
     display: flex;
     text-align: center;
@@ -45,7 +46,7 @@ a:visited {
 }
 a:hover {
         text-decoration: none;
-        color: blueviolet;
+        color: black;
 }
 a:active {
         color: black;
