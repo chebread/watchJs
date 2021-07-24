@@ -1,11 +1,12 @@
+const id = document.getElementById("show");
+
 function Print() {
-    var id = document.getElementById("show");
     var today = new Date;
     var year = today.getFullYear();
     var month = today.getMonth();
     var date = today.getDate();
-    var day = ['일', '월', '화', '수', '목', '금', '토']; // getDay()는 일요일 부터 요일을 세요
-    var day_num = today.getDay();
+    var day = ['월', '화', '수', '목', '금', '토', '일'];
+    var day_num = today.getDay() -1;
     var day_res = day[day_num];
     var hour_24 = today.getHours();
     var hour_12 = 0;
@@ -24,6 +25,7 @@ function Print() {
         id.style.color="black";
     }
     id.innerHTML = `${year}년 ${month}월 ${date}일 ${day_res}요일 ${hour_12}시 ${minute}분 ${second}초`
+    
 }
 
 function init() {

@@ -1,0 +1,57 @@
+body {
+    background-color: thistle;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#show {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90vh;
+
+}
+
+p {
+    font-size: 15px;
+    margin-left: 2vw;
+}
+
+#help_button {
+    font-size: 15px;
+    width: 50px;
+    height: 21px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+        text-decoration: none;
+}
+a:link {
+        color: black;
+}
+a:visited {
+        color: black;
+}
+a:hover {
+        text-decoration: none;
+        color: black;
+}
+a:active {
+        color: black;
+}
+
+code {
+    color: blue;
+}
