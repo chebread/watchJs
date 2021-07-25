@@ -19,7 +19,7 @@ function Print() {
     var minute = today.getMinutes();
     var second = today.getSeconds();
     // Dark
-    if (hour_24 >= 24) {
+    if (hour_24 >= 18) {
         $('body').css('background-color', 'rgb(24, 27, 33)')
         if (second > 50) {
             id.style.color="brown";
