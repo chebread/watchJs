@@ -35,6 +35,7 @@ p {
 }
 
 a {
+    
     text-decoration: none;
 }
 
@@ -43,7 +44,7 @@ a:hover {
 }
 
 code {
-    color: blue;
+    color: slateblue;
 }
 
 span {

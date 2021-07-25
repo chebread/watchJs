@@ -19,15 +19,15 @@ function Print() {
     var minute = today.getMinutes();
     var second = today.getSeconds();
     // Dark
-    if (hour_24 >= 18) {
+    if (hour_24 >= 24) {
         $('body').css('background-color', 'rgb(24, 27, 33)')
         if (second > 50) {
             id.style.color="brown";
         } else {
-            id.style.color="white"; // color 지정
+            id.style.color="rgb(202, 209, 216)"; // color 지정
         }
     } else {
-        $('body').css('background-color', 'rgb(250, 251, 252');
+        $('body').css('background-color', 'thistle');
         if (second > 50) {
             id.style.color="brown";
         } else {
