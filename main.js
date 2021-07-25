@@ -18,10 +18,21 @@ function Print() {
     }
     var minute = today.getMinutes();
     var second = today.getSeconds();
-    if (second > 50) {
-        id.style.color="brown";
+    // Dark
+    if (hour_24 >= 18) {
+        $('body').css('background-color', 'rgb(24, 27, 33)')
+        if (second > 50) {
+            id.style.color="brown";
+        } else {
+            id.style.color="white"; // color 지정
+        }
     } else {
-        id.style.color="black";
+        $('body').css('background-color', 'rgb(250, 251, 252');
+        if (second > 50) {
+            id.style.color="brown";
+        } else {
+            id.style.color="black"; // color 지정
+        }
     }
     id.innerHTML = `${year}년 ${month}월 ${date}일 ${day_res}요일 ${hour_12}시 ${minute}분 ${second}초`
 }
