@@ -2,7 +2,7 @@ function Print() {
     var id = document.getElementById("show");
     var today = new Date;
     var year = today.getFullYear();
-    var month = today.getMonth();
+    var month = today.getMonth() + 1;
     var date = today.getDate();
     var day = ['일', '월', '화', '수', '목', '금', '토']; // getDay()는 일요일 부터 요일을 세요
     var day_num = today.getDay();
@@ -21,7 +21,7 @@ function Print() {
     // Dark
 
     if (hour_24 >= 20 || hour_24 < 7) {
-        $('body').css('background-color', 'rgb(24, 27, 33)')
+        
         if (second > 50) {
             id.style.color="brown";
         } else {
@@ -42,6 +42,5 @@ function init() {
     Print();
     setInterval(Print, 1000);
 }
-
 
 init();
